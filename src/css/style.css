@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+}
+
+section{
+    height: 100vh;
+    width: 100%;
+}
+
+#cabecalho{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+}
+
+#incio{
+    background-color: rgb(173, 207, 252);
+}
+
+#lista{
+    background-color: rgb(207, 228, 255);
+    padding: 0px 85px 0px 85px;
+    display: flex;
+    justify-content: center;
+}
+
+#principal{
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    overflow-y: scroll;
+}
+
+
+.teste{
+    border: 3px solid rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px 20px 20px 20px;
+    height: 260px;
+    width: 300px;
+    background-color: beige;
+    float: left;
+    margin: 15px;
+}
+
