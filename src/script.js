@@ -27,7 +27,7 @@ async function exibirInformacoes(){
         paraQuantidade.textContent = pedidos.quantidade;
 
         const paraEntrega = document.createElement("p");
-        paraEntrega.textContent = pedidos.data_entraga;
+        paraEntrega.textContent = pedidos.data_entrega;
 
         const paraEscola = document.createElement("p");
         paraEscola.textContent = pedidos.escola;
@@ -47,6 +47,9 @@ async function exibirInformacoes(){
         const paraObservacao = document.createElement("p");
         paraObservacao.textContent = pedidos.obs;
 
+        const parauuid = document.createElement("p");
+        parauuid.textContent = pedidos.uuid;
+
         div.appendChild(paraNome);
         div.appendChild(paraData);
         div.appendChild(paraContato);
@@ -59,6 +62,7 @@ async function exibirInformacoes(){
         div.appendChild(paraSuperior);
         div.appendChild(paraInferior);
         div.appendChild(paraObservacao);
+        div.appendChild(parauuid);
         console.log(div)
 
         container.appendChild(div);
