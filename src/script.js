@@ -12,40 +12,40 @@ async function exibirInformacoes(){
         div.classList.add("teste");
 
         const paraNome = document.createElement("p");
-        paraNome.textContent = pedidos.nome;
+        paraNome.textContent = "Nome: " + pedidos.nome;
 
         const paraData = document.createElement("p");
-        paraData.textContent = pedidos.data;
+        paraData.textContent = "Data: " + pedidos.data;
 
         const paraContato = document.createElement("p");
-        paraContato.textContent = pedidos.contato;
+        paraContato.textContent = "Contato: " + pedidos.contato;
 
         const paraTamanho = document.createElement("p");
-        paraTamanho.textContent = pedidos.tamanho;
+        paraTamanho.textContent = "Tamanho: " + pedidos.tamanho;
 
         const paraQuantidade = document.createElement("p");
-        paraQuantidade.textContent = pedidos.quantidade;
+        paraQuantidade.textContent = "Quantidade: " +pedidos.quantidade;
 
         const paraEntrega = document.createElement("p");
-        paraEntrega.textContent = pedidos.data_entrega;
+        paraEntrega.textContent = "Data Entrega: " +pedidos.data_entrega;
 
         const paraEscola = document.createElement("p");
-        paraEscola.textContent = pedidos.escola;
+        paraEscola.textContent = "Escola: " + pedidos.escola;
 
         const paraPagamento = document.createElement("p");
-        paraPagamento.textContent = pedidos.pagamento;
+        paraPagamento.textContent = "Pagamento: " + pedidos.pagamento;
 
         const paraTipoPedido = document.createElement("p");
-        paraTipoPedido.textContent = pedidos.tipo_pedido;
+        paraTipoPedido.textContent = "Tipo do Pedido: " + pedidos.tipo_pedido;
 
         const paraSuperior = document.createElement("p");
-        paraSuperior.textContent = pedidos.superior;
+        paraSuperior.textContent = "Parte Superior: " + pedidos.superior;
 
         const paraInferior = document.createElement("p");
-        paraInferior.textContent = pedidos.inferior;
+        paraInferior.textContent = "Parte Inferior: " + pedidos.inferior;
 
         const paraObservacao = document.createElement("p");
-        paraObservacao.textContent = pedidos.obs;
+        paraObservacao.textContent = "Obs: " + pedidos.obs;
 
         const parauuid = document.createElement("p");
         parauuid.textContent = pedidos.uuid;
